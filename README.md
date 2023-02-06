@@ -128,6 +128,11 @@
 
 ## 4. 담당 파트
 
+![모닥불_1](https://user-images.githubusercontent.com/108646112/216996788-fecb2672-fcc8-47c5-828d-1c403d16314b.PNG)
+![모닥불_2](https://user-images.githubusercontent.com/108646112/216996807-c623321d-c748-4f2c-869e-7e091694d0d7.PNG)
+![모닥불_3](https://user-images.githubusercontent.com/108646112/216996825-ec92a2ef-eac6-4090-9dda-aa4984c6d974.PNG)
+![모닥불_4](https://user-images.githubusercontent.com/108646112/216996840-b41cf1d7-7fe3-4dc1-a39e-46fa8904eee8.PNG)
+
 > 프로젝트 프로젝트 기획, 화면 구성, 모델 설계
 
 > 벽난로 CRUD 기능 및 댓글 기능
