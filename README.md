@@ -1,4 +1,5 @@
 # 커뮤니티 모닥불
+
 ![001](https://user-images.githubusercontent.com/105331868/203469869-e3cb6f72-4968-4798-8843-dd1d3e836da0.png)
 
 배포 주소: http://kdt6team-env.eba-rmvmzut2.ap-northeast-2.elasticbeanstalk.com/
@@ -25,10 +26,10 @@
 
 <br>
 
-| 날짜 | 내용 |
-| --- | --- |
+| 날짜                   | 내용      |
+| -------------------- | ------- |
 | 11.9 (수) ~ 11.21 (월) | 프로젝트 개발 |
-| 11.22 (화) | 프로젝트 발표 |
+| 11.22 (화)            | 프로젝트 발표 |
 
 ### 1-2. 프로젝트 주제
 
@@ -40,12 +41,12 @@
 
 </aside>
 
-| 주제 | 예시 |
-| --- | --- |
-| 여행지 정보 및 후기 공유 커뮤니티 서비스 | 인스타그램 |
-| 맛집 정보 및 후기 공유 커뮤니티 서비스 | 망고플레이트 |
-| 영화 정보 및 후기 공유 커뮤니티 서비스 | 키노라이츠 |
-| 상품 정보 및 후기 공유 커뮤니티 서비스 | 오늘의집 |
+| 주제                      | 예시     |
+| ----------------------- | ------ |
+| 여행지 정보 및 후기 공유 커뮤니티 서비스 | 인스타그램  |
+| 맛집 정보 및 후기 공유 커뮤니티 서비스  | 망고플레이트 |
+| 영화 정보 및 후기 공유 커뮤니티 서비스  | 키노라이츠  |
+| 상품 정보 및 후기 공유 커뮤니티 서비스  | 오늘의집   |
 
 ## 2.프로젝트 소개
 
@@ -125,210 +126,22 @@
 
 > ⬆️ 네이버 API를 통해 `가격순, 날짜순, 정확도순으로 검색` 가능
 
-## 4.기여한 부분
-![013](https://user-images.githubusercontent.com/105331868/203493562-8aea3649-09c7-4d77-aea5-0c2b5c71bb42.png)
-![014](https://user-images.githubusercontent.com/105331868/203493611-bb254168-b106-45b6-a2be-807de8f068f5.png)
-![015](https://user-images.githubusercontent.com/105331868/203493628-d007e8ec-9e39-4805-8f6c-b647b06d1bf5.png)
-![016](https://user-images.githubusercontent.com/105331868/203493640-1bbf3efa-57c4-408c-85df-acf933e93677.png)
-![017](https://user-images.githubusercontent.com/105331868/203493660-e4f54d83-9e09-477b-861f-1d513049e6c6.png)
-![018](https://user-images.githubusercontent.com/105331868/203493671-ae2f8b04-f284-45d7-8fa0-3e62376e6c21.png)
-![019](https://user-images.githubusercontent.com/105331868/203493721-6d20273a-f178-4336-bd96-e7a73a47e2bd.png)
+## 4. 담당 프로젝트
 
-> 프로젝트 시작 전 팀원들과 프로젝트 기획, 각 기능들의 모델설계
 
-> 기능별로는 Meetings앱과 Notes앱 부분의 HTML, CSS, django views를 담당.
+> 프로젝트 프로젝트 기획, 화면 구성, 모델 설계
 
-> Meetings앱의 페이지네이션과 지역별 데이터를 화면에 뿌려주는 로직 설계
+> 벽난로 CRUD 기능 및 댓글 기능
 
-> Meetings앱의 비밀번호 기능과 모임 참여버튼 클릭시 비밀번호 없이 입장 가능하게끔 구현
+> CSS와 HTML을 화면 설계 및 디자인
 
-> 이외에 views의 복잡한 기능들은 팀원들과 함께 고민하고 작업
+> 그룹 벽난로 검색 기능
 
-## 5.프로젝트 후기
 
-- 여러가지 기능들을 앱별로 분류해본 경험이 처음이었다. 잘하는 팀원들과 만나서 공동작업을 하면서 자극을 많이 받았고, 팀원들에게 도움이 되고 싶다는 생각이 많이 들었다. 팀원들마다 실력과 코드 작성 실력이 달랐다. 나와 같은 경우 코드 작성 속도가 느리다는 생각이 들었고, 팀원들에게 민폐가 되지 않으려면 앞으로도 공부를 열심히 해야겠다는 생각이 들었다.
-
-- 한 HTML에서 많은 기능들을 렌더링하려고 하다보니 다양한 변수들에 부딪혔다. django HTML에서 For문을 통해 반복출력을 할때 서버단에서 컨트롤을 잘 해줘야한다는 것을 깨달았고, 각 모임의 비밀번호 입력을 위해 모달을 설정할 때 id값을 일치시키는 방법에도 애를 먹었었다. 
-
-- 모임페이지에서 지역별로 검색이 가능한데, 지역별로 검색한 내용을 서버단으로 전송할 때 클린 코드를 구현하려고 노력했다. 또한, 페이지네이션 기능을 구현할때 HTML에서 넘어오는 a-link의 값을 views.py에서 strip()을 통해 컨트롤 해주는 경험을 했다.
-
-- DB에서 데이터를 출력할 때, DB에서 필터링을 상세하게 해줘야 함을 깨달았다. 광범위하게 필터링할 경우 렌더링에도 시간이 걸리고, 서버에도 부담이 된다는 것을 깨달았다.
-
-- 아래의 코드는 views.py에서 지역 리스트를 HTML로 뿌려주고, HTML에서 django for문을 통해 렌더링하고, 반복문 속에 a링크를 서버에 전송해 DB에서 데이터를 뽑아주려고 했다. 한 함수안에서 처리될 수 있도록 고민했다.
-
-### Meeting HTML 코드 일부분
-```html 
-<div class="d-flex align-items-center">
-    <form action="{% url 'meetings:index'%}" method="POST" class="m-1">
-      {% csrf_token %}
-      <button id="custom-btn" name="reset" value="reset" style="background-color:transparent;">
-        모두보기
-      </button>
-    </form>
-    {% for local in meetings_local_list %}
-    <span class="mx-1">|
-      <a href="?local={{local}}" class="mx-1 custom-link" style="text-decoration:none">
-      {{ local }}
-      </a>
-    </span>
-    {% endfor %}
-  </div>
-  ```
-  ### Meeting Python 코드 일부분
-  ```py
-  @login_required
-def index(request):
-    meetings = Meeting.objects.order_by("-pk")
-    # 사용자가 블락안한 모임
-    block = Meeting.objects.exclude(user__in=request.user.blocking.all()).order_by("-pk")
-    # 사용자가 블락한 모임
-    non_block = Meeting.objects.filter(user__in=request.user.blocking.all()).order_by("-pk")
-    img = [
-        "https://images.unsplash.com/photo-1615097130643-12caeab3c625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-        "https://images.unsplash.com/photo-1577042939454-8b29d442b402?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-        "https://images.unsplash.com/photo-1638277267253-543e4c57cd7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-        "https://images.unsplash.com/photo-1543258103-a62bdc069871?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNocmlzdG1hc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "https://images.unsplash.com/photo-1575549593677-012f18048ea1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGNocmlzdG1hc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "https://images.unsplash.com/photo-1602678460152-719a9af1fb6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGNocmlzdG1hc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "https://images.unsplash.com/photo-1512474932049-78ac69ede12c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGNocmlzdG1hc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "https://images.unsplash.com/photo-1511970093628-4e9f59378b4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fGNocmlzdG1hc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "https://images.unsplash.com/photo-1482330454287-3cf6611d0bc9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGNocmlzdG1hc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "https://images.unsplash.com/photo-1545608444-f045a6db6133?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGNocmlzdG1hc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-    ]
-    random.shuffle(img)
-    # 총 모임 - 블락한 모임
-    meetings_count = len(meetings) - len(non_block)
-
-    # 지역별
-    meetings_local_name = "모든지역"
-    meetings_local_list = ["강남", "건대" ,"노원", "대학로", "부평", "신촌", "수원", "일산", "종로", "잠실", "홍대", "하남"]
-
-    at_all = "모두보기"
-    paginator = Paginator(block, 8)
-    page_number = request.GET.get("local")
-    page_obj = paginator.get_page(page_number)
-    if request.POST.get("reset"):
-        return redirect("meetings:index")
-    if request.GET.get("local"):
-        name = re.sub(r"[0-9]", "", request.GET.get("local"))
-        block = (
-            Meeting.objects.filter(location__contains=name)
-            .exclude(user__in=request.user.blocking.all())
-            .order_by("-pk")
-        )
-        if not name:
-            meetings_local_name = "모든지역"
-        else:
-            meetings_local_name = name
-        # 페이지네이션
-        paginator = Paginator(block, 8)
-        page_number = re.sub(r"[^0-9]", "", request.GET.get("local"))  # key 값이 local, value 값이 노원구
-        page_obj = paginator.get_page(page_number)  # 숫자만 받음
-        context = {
-            "nw": name,
-            "img": img,
-            "page_obj": page_obj,
-            "meetings_local_name": meetings_local_name,
-            "meetings_count": len(block),
-            "meetings_local_list": meetings_local_list,
-        }
-        return render(request, "meetings/index.html", context)
-    else:
-
-        context = {
-            "at_all": at_all,
-            "img": img,
-            "page_obj": page_obj,
-            "meetings_local_name": meetings_local_name,
-            "meetings_count": meetings_count,
-            "meetings_local_list": meetings_local_list,
-        }
-        return render(request, "meetings/index.html", context)
-  ```
-
-### 쪽지 HTML 코드 일부분
-```html
-<div id="container" class="container mt-4" style="max-width:550px;">
-  <div class="d-flex justify-content-center mb-2" id="profile">
-    <img id="profileimage" src="{{note.from_user.profileimage}}" alt="프로필 이미지" style="width: 120px; height:120px;" class="rounded-circle">
-  </div>
-    <div id="container" class="container p-0">
-      <div class="card" style="border-radius: 18px;"  id="cust-card">
-        <div style="height: 70px;">
-        </div>
-        <hr>
-        <div class="container ms-3">
-          <div class="fs-4 fw-bold">{{ note.title }}</div>
-          <div class="fs-5">
-            <p>{{ note.content }}</p>
-          </div>
-        </div>
-        <hr>
-          <a style="text-decoration:none;" href="{% url 'notes:send' note.from_user.pk %}" class="fs-6 d-flex justify-content-end me-3 text-black custom-link">답장하기</a>
-        <div class="d-flex justify-content-end mx-3">          
-          <a class="custom-link fs-4" id="btn-modal">
-            <span class="fs-6">from. </span>
-            {% if note.from_user.nickname %}
-            {{ note.from_user.nickname }}
-            {% else %}
-            {{ note.from_user.username }}
-            {% endif %}
-          </a>
-        </div>
-        
-        <div class="d-flex justify-content-end">
-          <small class="mx-3 mb-2">
-            {{ note.created_at|date:'o.m.d' }} {{ note.created_at|time:"H:i" }}
-          </small>
-        </div>
-        <div id="modal" class="modal-overlay">
-            <div class="modal-window">
-                <div class="title">
-                    <h2>
-                      {% if note.from_user.nickname %}
-                      {{ note.from_user.nickname }}
-                      {% else %}
-                      {{ note.from_user.username }}
-                      {% endif %}
-                    </h2>
-                </div>
-                <div class="close-area">X</div>
-                <div class="content">
-                    <h3><a href="{% url 'accounts:profile' request.user.pk %}" class="text-decoration-none text-white">프로필</a></h3>
-                    <h3><a href="{% url 'notes:send' note.from_user.pk %}" class="text-decoration-none text-white">쪽지</a></h3>
-                    <h3><a href="{% url 'accounts:follow' request.user.pk %}" class="text-decoration-none text-white">팔로우</a></h3>
-                    <h3><a href="{% url 'accounts:block' request.user.pk %}" class="text-decoration-none text-white">차단</a></h3>
-                </div>
-            </div>
-        </div>
-      </div>
-    </div>
-</div>
-```
-
-### 쪽지 Python 코드 일부분
-```py
-def detail(request, pk):
-    note = get_object_or_404(Notes, pk=pk)
-
-    if request.user == note.to_user:
-        if not note.read:
-            note.read = True
-            note.save()
-        if not request.user.user_to.filter(read=False).exists():
-            request.user.notice_note = True
-            request.user.save()
-        return render(request, "notes/detail.html", {"note": note})
-    elif request.user == note.from_user:
-        return render(request, "notes/detail.html", {"note": note})
-    else:
-        messages.error(request, "그렇게는 볼 수 없어요.😅")
-        return redirect("notes:index")
-```
-
-## 6.팀원들의 후기
+## 5. 후기
 
 문경욱😍
+
 ```
 실력이 뛰어난 팀원들을 만나 생각을 했던 것들을 
 실제로 구현하는 좋은 기회를 가질 수 있었습니다.
@@ -336,6 +149,7 @@ def detail(request, pk):
 ```
 
 이명학🐻‍❄️
+
 ```
 여러가지 기능들을 앱별로 분리해서 작업해보는 경험을 했습니다.
 또한 인덱스 페이지에 여러가지 기능을 한꺼번에 넣다보니 여러가지 변수에 부딪혔습니다.
